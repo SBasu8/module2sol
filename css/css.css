@@ -5,12 +5,11 @@ h1{
 p{
 
 background-color: grey;
-border: 2px solid black;
-
+border: 1px solid black;
 
 }
 div{
-
+	border: 1px solid black;
 
 }
 body{
