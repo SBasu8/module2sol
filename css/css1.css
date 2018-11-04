@@ -1,5 +1,6 @@
-*{
+ *{
 	box-sizing: border-box;
+
 }
 h1{
 	
@@ -7,10 +8,10 @@ h1{
 }
 div{
 
-	width:30%;
+	width:32%;
 	float:left;
-	margin: 10px;
-
+	margin-left:1%;
+	margin-top: 1%;
 	padding: 20px;
 
 position: relative;
@@ -29,7 +30,7 @@ section{
 
 }
 section.c1{background-color: #FF6347;}
-section.c2{background-color: red;}
+section.c2{background-color: red; color:white;}
 section.c3{background-color: #F5DEB3;}
 
 @media (min-width:992px)
@@ -39,9 +40,9 @@ section.c3{background-color: #F5DEB3;}
 }
 @media (min-width: 768px) and (max-width: 991px)
 {
-	div.d1{ width:45%; }
-	div.d2{ width:45%; }
-	div.d3{ width:90%; }
+	div.d1{ width:49%; }
+	div.d2{ width:49%; }
+	div.d3{ width:99%; }
 
 }
 @media (max-width: 767px)
